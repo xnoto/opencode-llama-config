@@ -1,7 +1,7 @@
 ---
 description: llama.cpp debug - Primary agent for reproducing local provider issues
 mode: primary
-model: llama.cpp/qwen2.5-coder-32b-instruct-q5_k_m.gguf
+model: llama.cpp/Qwen_Qwen3.6-35B-A3B-Q4_K_M.gguf
 temperature: 0.1
 permission:
   "*": deny
