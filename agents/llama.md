@@ -3,6 +3,7 @@ description: Forge/llama.cpp debug - Primary agent for reproducing local provide
 mode: primary
 model: llama.cpp/Qwen_Qwen3.6-35B-A3B-Q4_K_M.gguf
 temperature: 0.1
+steps: 6
 permission:
   "*": deny
   read: allow
@@ -27,4 +28,6 @@ Goals:
 - Reproduce Forge or provider failures with minimal noise.
 - Prefer short prompts and short responses.
 - Do not use subagents unless explicitly requested.
+- Avoid repeating the same plan or rereading the same file unless new evidence requires it.
+- Stop exploring once you have enough evidence to answer; do not exhaustively inspect small repositories.
 - When reporting issues, be concise and specific.

@@ -3,6 +3,9 @@
   "autoupdate": true,
   "default_agent": "llama",
   "agent": {
+    "title": {
+      "disable": true
+    },
     "plan": {
       "disable": true
     },
