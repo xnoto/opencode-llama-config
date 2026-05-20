@@ -2,9 +2,6 @@
   "$schema": "https://opencode.ai/config.json",
   "autoupdate": true,
   "default_agent": "llama",
-  "plugin": [
-    "./plugins/qwen-system-first.js"
-  ],
   "agent": {
     "title": {
       "disable": true
@@ -19,13 +16,13 @@
   "provider": {
     "llama.cpp": {
       "npm": "@ai-sdk/openai-compatible",
-      "name": "Forge proxy -> llama-server (hero)",
+      "name": "llama-server (hero)",
       "options": {
-        "baseURL": "http://hero.makeitwork.cloud:8081/v1"
+        "baseURL": "http://hero.makeitwork.cloud:8080/v1"
       },
       "models": {
         "Qwen_Qwen3.6-35B-A3B-Q4_K_M.gguf": {
-          "name": "Qwen3.6-35B-A3B Q4_K_M via Forge (hero)",
+          "name": "Qwen3.6-35B-A3B Q4_K_M (hero)",
           "limit": {
             "context": 229376,
             "output": 4096
