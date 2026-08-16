@@ -3,10 +3,12 @@
   "autoupdate": true,
   "default_agent": "llama",
   "mcp": {
-    "argocd-makeitwork": { "enabled": false }
+    "argocd-makeitwork": { "enabled": false },
+    "apify": { "enabled": false }
   },
   "tools": {
-    "argocd-makeitwork_*": false
+    "argocd-makeitwork_*": false,
+    "apify_*": false
   },
   "agent": {
     "title": {
