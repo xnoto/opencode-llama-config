@@ -2,13 +2,9 @@
   "$schema": "https://opencode.ai/config.json",
   "autoupdate": true,
   "default_agent": "llama",
-  "mcp": {
-    "makeitwork-argocd": { "enabled": false },
-    "makeitwork-apify": { "enabled": false }
-  },
   "tools": {
-    "makeitwork-argocd_*": false,
-    "makeitwork-apify_*": false
+    "makeitwork_makeitwork-argocd_*": false,
+    "makeitwork_makeitwork-apify_*": false
   },
   "agent": {
     "title": {
