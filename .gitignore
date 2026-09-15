@@ -12,3 +12,11 @@ Thumbs.db
 node_modules/
 bun.lock
 package.json
+
+# Antigravity runtime state. antigravity-accounts.json holds account
+# credentials (mode 600) and must never be committed; the rest is
+# regenerable cache and logs.
+antigravity-accounts.json
+antigravity-accounts.json.*.tmp
+antigravity-signature-cache.json
+antigravity-logs/
